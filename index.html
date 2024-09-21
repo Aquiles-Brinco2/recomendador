@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Canciones Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Busca una canción</h1>
+        <div class="search-bar">
+            <input type="text" id="songInput" placeholder="Ingresa el nombre de una canción">
+            <button onclick="getSongResults()">Buscar</button>
+        </div>
+        <div id="results" class="results"></div>
+        <div id="song-info" class="song-info"></div>
+        <div id="recommendations" class="recommendations"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
